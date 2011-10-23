@@ -2,8 +2,7 @@ require 'rubygems'
 require 'rest_client'
 require 'json'
 
-module hmx_client
- class Hmx
+class Hmx
   def initialize(url, urlapi)
     @urlapi = urlapi
     response = RestClient.get url
@@ -29,4 +28,3 @@ module hmx_client
     return response
   end
  end
-end
