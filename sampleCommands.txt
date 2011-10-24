@@ -1,0 +1,3 @@
+rake install
+gem build hmx_client.gemspec
+gem push hmx_client-0.0.2.gem
